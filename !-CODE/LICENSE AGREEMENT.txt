@@ -1,0 +1,62 @@
+SOFTWARE USAGE LICENSE AGREEMENT
+
+This Software Usage License Agreement ("Agreement") is a global agreement 
+
+
+1. DEFINITIONS
+
+   a. "Software" refers to [M_G_X], including all related documentation and any updates or modifications provided by Licensor.
+
+   b. "Licensee" refers to any company, a company duly registered and existing under the laws of any country, with its registered office located in accordance with international law.
+  
+   c. "Licensor" refers to Michael Gad Xiomer, The CEO & Founder of !-CODE Company.
+
+2. GRANT OF LICENSE
+
+   a. Subject to the terms and conditions of this Agreement, Licensor grants Licensee a non-exclusive, non-transferable, and revocable license to use the Software solely for Licensee's internal business purposes.
+
+   b. Licensee may install and use the Software on 4 computers owned or operated by Licensee.
+
+   c. Licensee may not sublicense, distribute, sell, or otherwise transfer the Software to any third party without the prior written consent of Licensor.
+
+3. RESTRICTIONS
+
+   a. Licensee shall not reverse engineer, decompile, disassemble, or otherwise attempt to derive the source code of the Software.
+
+   b. Licensee shall not remove or alter any copyright, trademark, or other proprietary notices contained in the Software.
+
+4. SUPPORT AND MAINTENANCE
+
+   a. Licensor is not obligated to provide support, updates, or maintenance for the Software under this Agreement, unless otherwise agreed upon in writing.
+
+5. PAYMENT
+
+   a. Licensee shall pay Licensor the agreed-upon license fee on a [monthly/yearly] basis in accordance with the payment terms specified in a separate agreement between the parties.
+
+6. TERMINATION
+
+   a. This Agreement may be terminated by either party upon written notice if the other party breaches any material term or condition of this Agreement and fails to remedy such breach within 30 days of receiving written notice thereof.
+
+   b. Upon termination, Licensee shall cease all use of the Software and return or destroy all copies of the Software in its possession.
+
+7. DISCLAIMER OF WARRANTY
+
+   a. The Software is provided "as is" without any warranties, express or implied, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose.
+
+8. LIMITATION OF LIABILITY
+
+   a. In no event shall Licensor be liable for any indirect, incidental, special, or consequential damages arising out of or in connection with the use or performance of the Software, even if Licensor has been advised of the possibility of such damages.
+
+9. GOVERNING LAW
+
+   a. This Agreement shall be governed by and construed in accordance with international law, without regard to its conflict of laws principles.
+
+10. ENTIRE AGREEMENT
+
+    a. This Agreement constitutes the entire agreement between the parties with respect to the Software and supersedes all prior or contemporaneous understandings or agreements, whether oral or written.
+
+IN WITNESS WHEREOF, the parties hereto have executed this Software Usage License Agreement as of the date first above written.
+
+Licensor:
+[MG_X]
+Michael Gad Xiomer , The CEO & Founder of !-CODE Company.
