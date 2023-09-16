@@ -6,99 +6,201 @@
     <title>Software Usage License Agreement</title>
     <!-- Include Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Include Google Fonts for stamp icon -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <style>
-        /* Add custom styles here */
         body {
-            padding: 20px;
-            user-select: none;
+            font-family: Arial, sans-serif;
+            padding: 0;
+            margin: 0;
+            background-color: #f8f8f8;
+            user-select: none !important;
+            pointer-events: none;
+            user-drag: none;
         }
+
+        .document {
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 35px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc; /* Add a border around the entire document */
+        }
+
+        .content {
+            padding: 0.2in; /* Padding inside the content area, like a Word document */
+            position: relative;
+        }
+
+        h1, h2, h3 {
+            text-align: center;
+        }
+
+        .section {
+            margin-top: 30px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .border-box {
+            border: 3px solid #000;
+            padding: 14% 3% 14% 6%;
+            border-radius: 8px;
+        }
+
+        .signature {
+            text-align: right;
+            margin-top: 40px;
+            position: relative;
+        }
+
+        /* Verified stamp icon */
+        .material-symbols-outlined {
+            font-family: 'Material Icons';
+            font-size: 138px;
+            position: absolute;
+            margin-top: -110px;
+            left: 205px;
+            transform: rotate(331deg);
+            color: #0000003d;
+             font-variation-settings:
+              'FILL' 0,
+              'wght' 400,
+              'GRAD' 0,
+              'opsz' 24
+        }
+
+        /* Watermark */
+        .watermark {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: rotate(-45deg) translate(-50%, -50%);
+            opacity: 0.3; /* Adjust opacity as needed */
+            font-size: 58px;
+            font-weight: bold;
+            transform-origin: 0% 0%;
+            color: #818181; /* Color for watermark text */
+            z-index: -1;
+        }
+        /* Copyright notice */
+        .copyright-notice {
+            text-align: center;
+            font-size: 16px;
+            color: #888;
+            margin-top: 60px;
+        }
+
+    /* Style for the div containing the image */
+.img {
+    text-align: center; /* Align the text to the right within the div */
+    margin-top: 20px; /* Add some top margin for spacing */
+}
+
+/* Style for the image itself */
+.img img {
+    max-width: 20%; /* Set the maximum width of the image to 20% of its container */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove any extra spacing below the image */
+    margin: 0 auto; /* Center the image horizontally within its container */
+    border: 2px solid #ccc; /* Add a border around the image (optional) */
+    border-radius: 8px; /* Add rounded corners to the image (optional) */
+    float: center; /* Align the image to the right */
+    user-select: none !important;
+   
+}
+
+
+         
+ 
+ 
     </style>
 </head>
-<body class="container">
-    <center>
-    <h1 class="text-center">SOFTWARE USAGE LICENSE AGREEMENT</h1>
-    <p class="text-center">This Software Usage License Agreement ("Agreement") is a global agreement.</p>
-</center>
-    <h2>1. DEFINITIONS</h2>
-    <p>
-        <strong>a. "Software" </strong> refers to M_G_X, including all related documentation and any updates or modifications provided by Licensor.
-    </p>
-    <p>
-        <strong>b. "Licensee" </strong> refers to any company, a company duly registered and existing under the laws of any country, with its registered office located in accordance with international law.
-    </p>
-    <p>
-        <strong>c. "Licensor" </strong> refers to Michael Gad Xiomer, The CEO & Founder of !-CODE Company.
-    </p>
+<body>
+    <div class="document">
+        <div class="content">
+            <div class="border-box">
+                <h1>SOFTWARE USAGE LICENSE AGREEMENT</h1>
+                <p class="text-center">This Software Usage License Agreement ("Agreement") is a global agreement.</p>
 
-    <h2>2. GRANT OF LICENSE</h2>
-    <p>
-        <strong>a. Subject to the terms and conditions of this Agreement, </strong> Licensor grants Licensee a non-exclusive, non-transferable, and revocable license to use the Software solely for Licensee's internal business purposes.
-    </p>
-    <p>
-        <strong>b. Licensee may install and use the Software on 4 computers owned or operated by Licensee.</strong>
-    </p>
-    <p>
-        <strong>c. Licensee may not sublicense, distribute, sell, or otherwise transfer the Software to any third party without the prior written consent of Licensor.</strong>
-    </p>
+               <div class="section">
+        <h2>1. DEFINITIONS</h2>
+        <p><strong>a. "Software"</strong> refers to M_G_X, including all related documentation and any updates or modifications provided by Licensor.</p>
+        <p><strong>b. "Licensee"</strong> refers to any company, a company duly registered and existing under the laws of any country, with its registered office located in accordance with international law.</p>
+        <p><strong>c. "Licensor"</strong> refers to Michael Gad Xiomer, The CEO & Founder of !-CODE Company.</p>
+    </div>
 
-    <h2>3. RESTRICTIONS</h2>
-    <p>
-        <strong>a. Licensee shall not reverse engineer, decompile, disassemble, or otherwise attempt to derive the source code of the Software.</strong>
-    </p>
-    <p>
-        <strong>b. Licensee shall not remove or alter any copyright, trademark, or other proprietary notices contained in the Software.</strong>
-    </p>
+    <div class="section">
+        <h2>2. GRANT OF LICENSE</h2>
+        <p><strong>a. Subject to the terms and conditions of this Agreement,</strong> Licensor grants Licensee a non-exclusive, non-transferable, and revocable license to use the Software solely for Licensee's internal business purposes.</p>
+        <p><strong>b. Licensee may install and use the Software on 4 computers owned or operated by Licensee.</strong></p>
+        <p><strong>c. Licensee may not sublicense, distribute, sell, or otherwise transfer the Software to any third party without the prior written consent of Licensor.</strong></p>
+    </div>
 
-    <h2>4. SUPPORT AND MAINTENANCE</h2>
-    <p>
-        <strong>a. Licensor is not obligated to provide support, updates, or maintenance for the Software under this Agreement, unless otherwise agreed upon in writing.</strong>
-    </p>
+    <div class="section">
+        <h2>3. RESTRICTIONS</h2>
+        <p><strong>a. Licensee shall not reverse engineer, decompile, disassemble, or otherwise attempt to derive the source code of the Software.</strong></p>
+        <p><strong>b. Licensee shall not remove or alter any copyright, trademark, or other proprietary notices contained in the Software.</strong></p>
+    </div>
 
-    <h2>5. PAYMENT</h2>
-    <p>
-        <strong>a. Licensee shall pay Licensor the agreed-upon license fee on a [monthly/yearly] basis in accordance with the payment terms specified in a separate agreement between the parties.</strong>
-    </p>
+    <div class="section">
+        <h2>4. SUPPORT AND MAINTENANCE</h2>
+        <p><strong>a. Licensor is not obligated to provide support, updates, or maintenance for the Software under this Agreement, unless otherwise agreed upon in writing.</strong></p>
+    </div>
 
-    <h2>6. TERMINATION</h2>
-    <p>
-        <strong>a. This Agreement may be terminated by either party upon written notice if the other party breaches any material term or condition of this Agreement and fails to remedy such breach within 30 days of receiving written notice thereof.</strong>
-    </p>
-    <p>
-        <strong>b. Upon termination, Licensee shall cease all use of the Software and return or destroy all copies of the Software in its possession.</strong>
-    </p>
+    <div class="section">
+        <h2>5. PAYMENT</h2>
+        <p><strong>a. Licensee shall pay Licensor the agreed-upon license fee on a [monthly/yearly] basis in accordance with the payment terms specified in a separate agreement between the parties.</strong></p>
+    </div>
 
-    <h2>7. DISCLAIMER OF WARRANTY</h2>
-    <p>
-        <strong>a. The Software is provided "as is" without any warranties, express or implied, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose.</strong>
-    </p>
+    <div class="section">
+        <h2>6. TERMINATION</h2>
+        <p><strong>a. This Agreement may be terminated by either party upon written notice if the other party breaches any material term or condition of this Agreement and fails to remedy such breach within 30 days of receiving written notice thereof.</strong></p>
+        <p><strong>b. Upon termination, Licensee shall cease all use of the Software and return or destroy all copies of the Software in its possession.</strong></p>
+    </div>
 
-    <h2>8. LIMITATION OF LIABILITY</h2>
-    <p>
-        <strong>a. In no event shall Licensor be liable for any indirect, incidental, special, or consequential damages arising out of or in connection with the use or performance of the Software, even if Licensor has been advised of the possibility of such damages.</strong>
-    </p>
+    <div class="section">
+        <h2>7. DISCLAIMER OF WARRANTY</h2>
+        <p><strong>a. The Software is provided "as is" without any warranties, express or implied, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose.</strong></p>
+    </div>
 
-    <h2>9. GOVERNING LAW</h2>
-    <p>
-        <strong>a. This Agreement shall be governed by and construed in accordance with international law, without regard to its conflict of laws principles.</strong>
-    </p>
+    <div class="section">
+        <h2>8. LIMITATION OF LIABILITY</h2>
+        <p><strong>a. In no event shall Licensor be liable for any indirect, incidental, special, or consequential damages arising out of or in connection with the use or performance of the Software, even if Licensor has been advised of the possibility of such damages.</strong></p>
+    </div>
 
-    <h2>10. ENTIRE AGREEMENT</h2>
-    <p>
-        <strong>a. This Agreement constitutes the entire agreement between the parties with respect to the Software and supersedes all prior or contemporaneous understandings or agreements, whether oral or written.</strong>
-    </p>
+    <div class="section">
+        <h2>9. GOVERNING LAW</h2>
+        <p><strong>a. This Agreement shall be governed by and construed in accordance with international law, without regard to its conflict of laws principles.</strong></p>
+    </div>
 
-    <h3>IN WITNESS WHEREOF, the parties hereto have executed this Software Usage License Agreement</h3>
+    <div class="section">
+        <h2>10. ENTIRE AGREEMENT</h2>
+        <p><strong>a. This Agreement constitutes the entire agreement between the parties with respect to the Software and supersedes all prior or contemporaneous understandings or agreements, whether oral or written.</strong></p>
+    </div>
 
-    <p>
-        <strong>Licensor:</strong><br>
-        [MG_X]<br>
-        Michael Gad Xiomer , The CEO & Founder of !-CODE Company.
-    </p>
+                <!-- Add more sections here following the same structure -->
 
+                <h3>IN WITNESS WHEREOF, the parties hereto have executed this Software Usage License Agreement</h3>
+                <p><strong>Licensor Signature:</strong> MG_X<br>Michael Gad Xiomer, The CEO & Founder of !-CODE Company.</p>
+                <span class="material-symbols-outlined">fingerprint</span>
+                <div class="img"><img src="C:\Users\hp\Desktop\certificate.png"></div>
 
+                <!-- Watermark -->
+                <div class="watermark">LICENSE-AGREEMENT</div>
+                <!-- Copyright notice -->
+                <p class="copyright-notice">&copy; 2023 !-CODE Co. All Rights Reserved.</p>
+
+            </div>
+        </div>
+    </div>
 
     <!-- Include Bootstrap JS and jQuery for Bootstrap components (if needed) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
